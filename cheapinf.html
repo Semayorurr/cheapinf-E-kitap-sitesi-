@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<html>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<head>
+<title>cheapinf</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+                <a href="#" target="_blank"><strong>cheap</strong>inf</a>
+        </div>
+<div class="aramacubugu">
+    <input type="text" name="sorgu" placeholder="kitap adı,yazar veya yayınevi ara ">
+    <button type="submit" class="ara-butonu"><img src="image/magnifying-glass-solid.png" alt=""></button>
+</div>
+<div class="sag-taraf">
+<div class="girisyapkayitol">
+      <button class="giris-yap"><a href="Girisyap.html">Giriş Yap</a></button>
+      <button class="Kayit-ol"><a href="kayitol.html">Kayıt ol</a></button>
+</div>
+<div class="sepet">
+            <button type="button" class="sepet-buton"><img src="image/sepet.png" alt="">
+            <span id="sepet-sayaci">0</span></button>
+</div>
+</div>    
+    </header>
+<div class="kategoriresimsatiri">
+    <nav class="kategori">
+        <ul>
+         <li><a href="turkklasıklerı.html" >Türk klasikleri</a></li>
+         <li><a href="dunyaklasıklerı.html">Dünya klasikleri</a></li>     
+         <li><a href="cocukhıkayelerı.html">Çocuk hikayeleri</a></li>
+         <li><a href="tarıhkıtapları.html">Tarih kitapları</a></li>
+         <li><a href="kpsskitapları.html">KPSS kitapları</a></li>
+         <li><a href="ayttytkitapları.html">TYT-AYT kitapları</a></li>
+         <li><a href="#">Psikolojik kitaplar</a></li>
+         <li><a href="#">Bilim Kurgu & Fantastik</a></li>
+         <li><a href="#">Kişisel Gelişim</a></li>
+         <li><a href="#">Polisiye & Gerilim</a></li>
+         <li><a href="#">Felsefe</a></li>
+       </ul>
+    </nav>
+    <nav>
+        <div class="slider-container"> 
+    <div class="sliderkutusu">
+        <img src="image/KPSSveaytkart.png" alt="KPSS ve Ayt kartı">
+        <img src="image/Tarihkitaplarıkart.png" alt="Tarih kitapları kart">
+        <img src="image/türkklasikleri.png" alt="Türk klasikleri kart">
+    </div>
+         </div>
+    </nav>
+    </div>
+
+<div class="onecikanlar">
+    <h2 class="onecikanyaz">ÖNE ÇIKANLAR</h2>
+    <div class="slider">
+        
+        <button class="sol-ok"><img src="image\solok.png" alt="Sol Ok"></button>
+
+        <div class="kitaplar-rayi">
+            
+            <div class="kitapkapsayici">
+
+                <div class="kitapkart kitap">
+                    <button class="addbuton" onclick="sepeteEkle()">+</button>
+                    <div class="kitapresim">
+                        <img src="image\yeraltından notlar.png" alt="Yeraltından Notlar">
+                    </div>
+                    <div class="kitapbilgi">
+                        <h3 class="kitapbaslik">Yeraltından Notlar</h3>
+                        <p class="kitapyazar">Fyodor Dostoyevski</p>
+                        <p class="yayinevi">Can yayınları</p>
+                        <p class="fiyat">94.37 TL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kitapkapsayici">
+                <div class="kitapkart kitap">
+                    <button class="addbuton" onclick="sepeteEkle()">+</button>
+                    <div class="kitapresim">
+                        <img src="image\kendimdenözürdiliyorum.png" alt="kendimdenözürdilerim">
+                    </div>
+                    <div class="kitapbilgi">
+                        <h3 class="kitapbaslik">Kendimden Özür Dilerim</h3>
+                        <p class="kitapyazar">Miraç Çağrı Aktaş</p>
+                        <p class="yayinevi">İndigo Kitap</p>
+                        <p class="fiyat">203.40 TL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kitapkapsayici">
+                <div class="kitapkart kitap">
+                    <button class="addbuton" onclick="sepeteEkle()">+</button>
+                    <div class="kitapresim">
+                        <img src="image\saçörgügü.png" alt="saçörgüsü">
+                    </div>
+                    <div class="kitapbilgi">
+                        <h3 class="kitapbaslik">Saç Örgüsü</h3>
+                        <p class="kitapyazar">Latetita Colombani</p>
+                        <p class="yayinevi">Yan Pasaj</p>
+                        <p class="fiyat">217.10 TL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kitapkapsayici">
+                <div class="kitapkart kitap">
+                    <button class="addbuton" onclick="sepeteEkle()">+</button>
+                    <div class="kitapresim">
+                        <img src="image\yasamak.png" alt="yasamak">
+                    </div>
+                    <div class="kitapbilgi">
+                        <h3 class="kitapbaslik">Yaşamak</h3>
+                        <p class="kitapyazar">Yu Hua</p>
+                        <p class="yayinevi">Jaguar Kitap</p>
+                        <p class="fiyat">161.10 TL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kitapkapsayici">
+                <div class="kitapkart kitap">
+                    <button class="addbuton" onclick="sepeteEkle()">+</button>
+                    <div class="kitapresim">
+                        <img src="image\beklebeni.png" alt="beklebeni">
+                    </div>
+                    <div class="kitapbilgi">
+                        <h3 class="kitapbaslik">Bekle Beni</h3>
+                        <p class="kitapyazar">Zülfü Livaneli</p>
+                        <p class="yayinevi">Can Yayınları</p>
+                        <p class="fiyat">244,65 TL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kitapkapsayici">
+                <div class="kitapkart kitap">
+                    <button class="addbuton" onclick="sepeteEkle()">+</button>
+                    <div class="kitapresim">
+                        <img src="image\hamnet.png" alt="hamnet">
+                    </div>
+                    <div class="kitapbilgi">
+                        <h3 class="kitapbaslik">Hamnet</h3>
+                        <p class="kitapyazar">Maggie O'Farrell</p>
+                        <p class="yayinevi">Domingo Yayınları</p>
+                        <p class="fiyat">227,50 TL</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kitapkapsayici">
+                <div class="kitapkart kitap">
+                    <button class="addbuton" onclick="sepeteEkle()">+</button>
+                    <div class="kitapresim">
+                        <img src="image\parazit.png" alt="parazit">
+                    </div>
+                    <div class="kitapbilgi">
+                        <h3 class="kitapbaslik">Parazit</h3>
+                        <p class="kitapyazar">Hitoshi Iwakı</p>
+                        <p class="yayinevi">Kayıp Kıta Yayınları</p>
+                        <p class="fiyat">209,70 TL</p>
+                    </div>
+                </div>
+            </div>
+         <div class="kitapkapsayici">
+            <div class="kitapkart kitap">
+                <button class="addbuton" onclick="sepeteEkle()">+</button>
+                <div class="kitapresim">
+                    <img src="image\uzgunpaylacotiti.png" alt="üzgünpaylacotiti">
+                </div>
+                <div class="kitapbilgi">
+                    <h3 class="kitapbaslik">Üzgün Paylaço Titi</h3>
+                    <p class="kitapyazar">H.Salih Zengin</p>
+                    <p class="yayinevi">Minika Kitap</p>
+                    <p class="fiyat">198,00 TL</p>
+                </div>
+            </div>
+
+         </div>
+        </div> <button class="sag-ok"><img src="image\sagok.png" alt="Sağ Ok"></button>
+
+    </div> 
+</div>
+<div class="populeryazısı">
+    <h2>--------------------POPÜLER YAYINEVLERİ--------------------</h2>
+</div>  
+<div class="populeryayınevleri">
+    <a href="#"><img src ="image\ısbankasıyayınları.png" alt="iş bankası yayınları"></a>
+    <a href="#"><img src="image\canyayınları.png" alt="canyayınları"></a>
+    <a href="#"><img src="image\ephesusyayınları.png" alt="ephesusyayınları"></a>
+    <a href="#"><img src="image\yapıkrediyayınları.png" alt="yapıkrediyayınları"></a>
+    <a href="#"><img src="image\pegasusyayınları.png" alt="pegasusyayınları"></a>
+    <a href="#"><img src="image\sincapyayınları.png" alt="sincapyayınları"></a>
+</div>
+<div class="kartkitapsatiri">
+<div class="cocukkitabıkart">
+    <a href="cocukhıkayelerı.html"><img src="image\cocukkitaplarıkart.png" alt="Çocuk Kitapları"></a>
+</div>
+<div class="gununkitabi">
+    <div class="kitapkapsayici">
+         <h2>GÜNÜN KİTABI</h2>
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <img src="image\bilinmeyenbirkadınınmektubu.png" alt="bilinmeyenkadınınmektubu">
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Bilinmeyen Bir Kadının Mektubu</h3>
+        <p class="kitapyazar">Stefan Zweig</p>
+        <p class="yayinevi">Türkiye İş Bankası Yayınları</p>
+        <p class="fiyat">45,00 TL</p>
+        </div>
+    </div>
+   </div>
+</div>
+</div>
+<div class="iletisim">
+    <div class="iletisimyazi">
+       
+    <h2>Bizi Takip Edin</h2>
+     <p class="yazı">copyright Ayşe Sema Yörür</p>
+    </div>
+    <div class="logolar">
+    <a href="#"><img src="image\instagramlogo.png" alt="instagram"></a>
+    <a href="#"><img src="image\facebooklogo.png" alt="twitter"></a>
+    <a href="#"><img src="image\xlogo.png" alt="xlogo"></a>
+    <a href="#"><img src="image\youtubelogo.png" alt="youtubelogo"></a>
+    <a href="#"><img src="image\tiktoklogo.png" alt="tiktoklogo"></a>
+    <div class="odemelogoları">
+    <img src="image\visa.png" alt="visa">
+    <img src="image\troy.png" alt="troy">
+    <img src="image\world.png" alt="world">
+    <img src="image\mastercard.png" alt="mastercard">
+    <img src="image\garanti.png" alt="garanti">
+</div>
+</div>
+
+</div>
+    <script src="jscript.js"></script>
+</body>
+</html>
