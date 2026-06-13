@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<head>
+<title>AYT TYT Kitapları</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+                <a href="cheapinf.html"><strong>cheap</strong>inf</a>
+        </div>
+        <div class="aramacubugu">
+    
+    <input type="text" name="sorgu" placeholder="kitap adı,yazar veya yayınevi ara ">
+    <button type="submit" class="ara-butonu"><img src="image/magnifying-glass-solid.png" alt=""></button>
+    
+</div>
+<div class="sag-taraf">
+<div class="girisyapkayitol">
+      <button class="giris-yap"><a href="Girisyap.html">Giriş Yap</a></button>
+      <button class="Kayit-ol"><a href="kayitol.html">Kayıt ol</a></button>
+</div>
+<div class="sepet">
+            <button type="button" class="sepet-buton"><img src="image/sepet.png" alt="">
+            <span id="sepet-sayaci">0</span></button>
+</div>
+</header>
+
+<div class="yazi">
+<h2>AYT TYT KİTAPLARI</h2>
+</div>
+<div class="dunyaklasikleri">
+ <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\paragraf.png" alt="paragraf">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">TYT Paragraf</h3>
+        <p class="kitapyazar">Göksu Çetin</p>
+        <p class="yayinevi">Hız Ve Renk Yayınları</p>
+        <p class="fiyat">43,00 TL</p>
+        </div>
+    </div>
+    </div>
+<div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\geometribilgisarmal.png" alt="geometribilgisarmal">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">TYT-AYT Geometri Bilgi Sarmal</h3>
+        <p class="kitapyazar">Mehmet Karanfil Muharrem</p>
+        <p class="yayinevi">Bilgi Sarmal Yayınları</p>
+        <p class="fiyat">60,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\tytaytproblemler.png" alt="tytaytproblemler">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">TYT-AYT Problemler</h3>
+        <p class="kitapyazar">Barış Çelenk</p>
+        <p class="yayinevi">Barış Yayınları</p>
+        <p class="fiyat">329,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\orjınalmatematık.png" alt="orjınalmatematık">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">TYT-AYT Orjinal Matematik İntegral</h3>
+        <p class="kitapyazar">Orjinal KOmisyon</p>
+        <p class="yayinevi">Orjinal Yayınları</p>
+        <p class="fiyat">200,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap" >
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\okyanusbıyolojı.png" alt="okyanusbıyolojı">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">TYT-AYT Biyoloji Soru Bankası</h3>
+        <p class="kitapyazar">Yeşim Kabadaş Kırsaç</p>
+        <p class="yayinevi">Okyanus yayınları</p>
+        <p class="fiyat">234,17 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\geometrideneme.png" alt="geometrideneme">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">TYT-AYT Geometri Denemesi</h3>
+        <p class="kitapyazar">Barış Çelenk</p>
+        <p class="yayinevi">Barış Yayınları</p>
+        <p class="fiyat">179,00 TL</p>
+        </div>
+    </div>
+    </div>
+     <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\kimyasorubankası.png" alt="kimyasorubankası">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">TYT-AYT Kimya Soru Bankası</h3>
+        <p class="kitapyazar">Hayrettin Fidan Yavuz Selim</p>
+        <p class="yayinevi">Yanıt Yayınları</p>
+        <p class="fiyat">291,00 TL</p>
+        </div>
+    </div>
+    </div>
+     <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\felsefesorubankası.png" alt="felsefesorubankası">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">TYT-AYT Felsefe Soru Bankası </h3>
+        <p class="kitapyazar">Zarife sakarya Figen Uygur</p>
+        <p class="yayinevi">Palme Yayınevi</p>
+        <p class="fiyat">117,00 TL</p>
+        </div>
+    </div>
+    </div>
+     <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\aytedebiyat.png" alt="aytedebiyat">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">AYT Edebiyat Soru Bankası</h3>
+        <p class="kitapyazar">Komisyon</p>
+        <p class="yayinevi">Merkez Yayınları</p>
+        <p class="fiyat">98,00 TL</p>
+        </div>
+    </div>
+    </div>
+     <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\tytfizik.png" alt="tytfizik">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">TYT Fizik Soru Bankası</h3>
+        <p class="kitapyazar">Ümit Akıncı</p>
+        <p class="yayinevi">Üç Dört Beş Yayınları</p>
+        <p class="fiyat">200,00 TL</p>
+        </div>
+    </div>
+    </div>
+      <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\tytdilbilgisi.png" alt="tyt dilbilgisi">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">TYT Dil Bilgisi Soru Bankası</h3>
+        <p class="kitapyazar">Müslüm Kaplan</p>
+        <p class="yayinevi">Üç Dört Beş Yayınları</p>
+        <p class="fiyat">103,87 TL</p>
+        </div>
+    </div>
+    </div>
+     <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\aytmatematik.png" alt="ayt matematik">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">AYT Matematik Soru Bankası</h3>
+        <p class="kitapyazar">Mehmet Kıvrak</p>
+        <p class="yayinevi">Üç Dört Beş Yayınları</p>
+        <p class="fiyat">349,00 TL</p>
+        </div>
+    </div>
+    </div>
+        
+    </div>
+    <div class="iletisim">
+    <div class="iletisimyazi">
+    <h2>Bizi Takip Edin</h2>
+    </div>
+    <div class="logolar">
+    <a href="#"><img src="image\instagramlogo.png" alt="instagram"></a>
+    <a href="#"><img src="image\facebooklogo.png" alt="twitter"></a>
+    <a href="#"><img src="image\xlogo.png" alt="xlogo"></a>
+    <a href="#"><img src="image\youtubelogo.png" alt="youtubelogo"></a>
+    <a href="#"><img src="image\tiktoklogo.png" alt="tiktoklogo"></a>
+    <div class="odemelogoları">
+    <img src="image\visa.png" alt="visa">
+    <img src="image\troy.png" alt="troy">
+    <img src="image\world.png" alt="world">
+    <img src="image\mastercard.png" alt="mastercard">
+    <img src="image\garanti.png" alt="garanti">
+</div>
+</div>
+    </div>
+     <script src="jscript.js"></script>
+    </body>
+    </html>
