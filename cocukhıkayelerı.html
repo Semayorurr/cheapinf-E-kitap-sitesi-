@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<head>
+<title>çocuk hikayeleri</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+                <a href="cheapinf.html"><strong>cheap</strong>inf</a>
+        </div>
+        <div class="aramacubugu">
+    
+    <input type="text" name="sorgu" placeholder="kitap adı,yazar veya yayınevi ara ">
+    <button type="submit" class="ara-butonu"><img src="image/magnifying-glass-solid.png" alt=""></button>
+
+</div>
+<div class="sag-taraf">
+<div class="girisyapkayitol">
+      <button class="giris-yap"><a href="Girisyap.html">Giriş Yap</a></button>
+      <button class="Kayit-ol"><a href="kayitol.html">Kayıt ol</a></button>
+</div>
+<div class="sepet">
+            <button type="button" class="sepet-buton"><img src="image/sepet.png" alt="">
+            <span id="sepet-sayaci">0</span></button>
+</div>
+</header>
+<div class="yazi">
+<h2>ÇOCUK HİKAYELERİ</h2>
+</div>
+
+<div class="turkklasikleri">
+ <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\gumus.png" alt="gumus">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Gümüş</h3>
+        <p class="kitapyazar">Ahmet Kabaklı</p>
+        <p class="yayinevi">Türk Edebiyat Vakfı Yayınları</p>
+        <p class="fiyat">54,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\neolmakıstemem.png" alt="neolmakıstemem">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Ne Olmak İstemem</h3>
+        <p class="kitapyazar">Kolektif</p>
+        <p class="yayinevi">Can Çocuk Yayınları</p>
+        <p class="fiyat">164,27 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\dedekorkut.png" alt="dedekorkut">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Dede Korkut Yayınları</h3>
+        <p class="kitapyazar">Kolektif</p>
+        <p class="yayinevi">Yediveren Çocuk</p>
+        <p class="fiyat">129,44 TL</p>
+        </div>
+    </div>
+    </div>
+     <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\cocuksanatcılar.png" alt="cocuksanatcılar">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Çocuk Sanatçılar</h3>
+        <p class="kitapyazar">David Stabler</p>
+        <p class="yayinevi">Hep Kitap</p>
+        <p class="fiyat">374,50 TL</p>
+        </div>
+    </div>
+    </div>
+     <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\zeynebınhıkayelerı.png" alt="zeynebınhıkayelerı">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Zeynep'in Hikayeleri</h3>
+        <p class="kitapyazar">Devon Holzwarth</p>
+        <p class="yayinevi">Türkiye İş Bankası</p>
+        <p class="fiyat">72,69 TL</p>
+        </div>
+    </div>
+    </div>
+     <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\arkadasımpapı.png" alt="arkadasımpapı">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Arkadaşım Papi</h3>
+        <p class="kitapyazar">Bilgin Adalı</p>
+        <p class="yayinevi">Can Çocuk Yayınları</p>
+        <p class="fiyat">180,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\kırmızıbaslıklıkız.png" alt="kırmızıbaslıklıkız">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Kırmızı Başlıklı Kız</h3>
+        <p class="kitapyazar">Mar Ferrero</p>
+        <p class="yayinevi">Can Çocuk Yayınları</p>
+        <p class="fiyat">150,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\adaveadam.png" alt="adaveadam">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Ada Ve Adam</h3>
+        <p class="kitapyazar">Sevim Ak</p>
+        <p class="yayinevi">Can Çocuk Yayınları</p>
+        <p class="fiyat">138,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\buyukoyuncu.png" alt="buyukoyuncu">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Büyük Oyuncu</h3>
+        <p class="kitapyazar">Doğan Gündüz</p>
+        <p class="yayinevi">Can Çocuk Yayınları</p>
+        <p class="fiyat">138,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\lninlistelerı.png" alt="lninlisteleri">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">L'nin Listeleri</h3>
+        <p class="kitapyazar">Nazlı Deniz Güler</p>
+        <p class="yayinevi">Can Çocuk Yayınları</p>
+        <p class="fiyat">99,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\gızlısaklıısler.png" alt="gızlısaklıısler">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Gizli Saklı İşler</h3>
+        <p class="kitapyazar">Nehir Yayar</p>
+        <p class="yayinevi">Can Çocuk Yayınları</p>
+        <p class="fiyat">123,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\bıberveben.png" alt="bıberveben">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">Biber Ve Ben</h3>
+        <p class="kitapyazar">Beatrice Alemagna</p>
+        <p class="yayinevi">Can Çocuk Yayınları</p>
+        <p class="fiyat">162,00 TL</p>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="iletisim">
+    <div class="iletisimyazi">
+    <h2>Bizi Takip Edin</h2>
+    </div>
+    <div class="logolar">
+    <a href="#"><img src="image\instagramlogo.png" alt="instagram"></a>
+    <a href="#"><img src="image\facebooklogo.png" alt="twitter"></a>
+    <a href="#"><img src="image\xlogo.png" alt="xlogo"></a>
+    <a href="#"><img src="image\youtubelogo.png" alt="youtubelogo"></a>
+    <a href="#"><img src="image\tiktoklogo.png" alt="tiktoklogo"></a>
+    <div class="odemelogoları">
+    <img src="image\visa.png" alt="visa">
+    <img src="image\troy.png" alt="troy">
+    <img src="image\world.png" alt="world">
+    <img src="image\mastercard.png" alt="mastercard">
+    <img src="image\garanti.png" alt="garanti">
+</div>
+</div>
+
+</div>
+ <script src="jscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+<head>
+<title>KPSS Kitapları</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+                <a href="cheapinf.html"><strong>cheap</strong>inf</a>
+        </div>
+        <div class="aramacubugu">
+    
+    <input type="text" name="sorgu" placeholder="kitap adı,yazar veya yayınevi ara ">
+    <button type="submit" class="ara-butonu"><img src="image/magnifying-glass-solid.png" alt=""></button>
+
+</div>
+<div class="sag-taraf">
+<div class="girisyapkayitol">
+      <button class="giris-yap" ><a href="Girisyap.html">Giriş Yap</a></button>
+      <button class="Kayit-ol"><a href="kayitol.html">Kayıt ol</a></button>
+</div>
+<div class="sepet">
+            <button type="button" class="sepet-buton"><img src="image/sepet.png" alt="">
+            <span id="sepet-sayaci">0</span></button>
+</div>
+</header>
+<div class="yazi">
+<h2>KPSS KİTAPLARI</h2>
+</div>
+<div class="turkklasikleri">
+ <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\kpssparagraf.png" alt="paragraf">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS Paragraf</h3>
+        <p class="kitapyazar">Pegem Komisyon</p>
+        <p class="yayinevi">Pegem Yayınları</p>
+        <p class="fiyat">231,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\kpsstarih.png" alt="kpsstarih">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS TArih</h3>
+        <p class="kitapyazar">Ramazan Yetgin</p>
+        <p class="yayinevi">Benim Hocam Yayınları</p>
+        <p class="fiyat">56,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\kpsscografya.png" alt="kpsscografya">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS Coğrafya</h3>
+        <p class="kitapyazar">Bayram Meral</p>
+        <p class="yayinevi">Benim Hocam Yayınları</p>
+        <p class="fiyat">76,00 TL</p>
+        </div>
+    </div>
+    </div>
+     <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\kpssmatematik.png" alt="kpss matematik">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS Matematik</h3>
+        <p class="kitapyazar">İlyas Güneş</p>
+        <p class="yayinevi">Yargı Yayınları</p>
+        <p class="fiyat">123,00 TL</p>
+        </div>
+    </div>
+    </div>
+     <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\kpssturkce.png" alt="KPSS türkçe">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS Türkçe</h3>
+        <p class="kitapyazar">Aker Kartal</p>
+        <p class="yayinevi">Retro Yayıncılık</p>
+        <p class="fiyat">160,00 TL</p>
+        </div>
+    </div>
+    </div>
+     <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\kpssvatandaslık.png" alt="kpss vatandaslık">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS Vatandaşlık</h3>
+        <p class="kitapyazar">Erdel Kesekler</p>
+        <p class="yayinevi">Benim Hocam Yayınları</p>
+        <p class="fiyat">58,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\kpssmatematikdeneme.png" alt="kpssmatematikdeneme">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS Matematik Deneme Sınavı</h3>
+        <p class="kitapyazar">Mehmet Bilge Yıldız</p>
+        <p class="yayinevi">Yedi İklim Yayınları</p>
+        <p class="fiyat">104,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\kpssdilbilgisi.png" alt="kpssdilbilgisi">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS Dil Bilgisi</h3>
+        <p class="kitapyazar">Kadir Gümüş</p>
+        <p class="yayinevi">Benim Hocam Yayınları</p>
+        <p class="fiyat">114,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\paragrafcıkmıssorular.png" alt="paragrafcıkmıssorular">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS Paragraf Çıkmış Sorular</h3>
+        <p class="kitapyazar">Yediiklim Komisyon</p>
+        <p class="yayinevi">Yediiklim Yayınları</p>
+        <p class="fiyat">71,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\turkcedeneme.png" alt="turkce deneme">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS Türkçe Deneme</h3>
+        <p class="kitapyazar">Yediiklim Komisyon</p>
+        <p class="yayinevi">Yediiklim Yayınları</p>
+        <p class="fiyat">99,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\cografyadeneme.png" alt="cografya deneme">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS Coğrafya Deneme</h3>
+        <p class="kitapyazar">Pegem Komisyon</p>
+        <p class="yayinevi">Pegem Yayınları</p>
+        <p class="fiyat">88,00 TL</p>
+        </div>
+    </div>
+    </div>
+    <div class="kitapkapsayici">
+    <div class="kitapkart kitap">
+        <button class="addbuton"onclick="sepeteEkle()">+</button>
+    <div class="kitapresim">
+    <img src="image\kpsscografyasoru.png" alt="kpss cografya soru bankası">
+    </div>
+    <div class="kitapbilgi">
+        <h3 class="kitapbaslik">KPSS Coğrafya Soru Bankası</h3>
+        <p class="kitapyazar">Yunus Turan</p>
+        <p class="yayinevi">Edu Kariyer</p>
+        <p class="fiyat">299,00 TL</p>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="iletisim">
+    <div class="iletisimyazi">
+    <h2>Bizi Takip Edin</h2>
+    </div>
+    <div class="logolar">
+    <a href="#"><img src="image\instagramlogo.png" alt="instagram"></a>
+    <a href="#"><img src="image\facebooklogo.png" alt="twitter"></a>
+    <a href="#"><img src="image\xlogo.png" alt="xlogo"></a>
+    <a href="#"><img src="image\youtubelogo.png" alt="youtubelogo"></a>
+    <a href="#"><img src="image\tiktoklogo.png" alt="tiktoklogo"></a>
+    <div class="odemelogoları">
+    <img src="image\visa.png" alt="visa">
+    <img src="image\troy.png" alt="troy">
+    <img src="image\world.png" alt="world">
+    <img src="image\mastercard.png" alt="mastercard">
+    <img src="image\garanti.png" alt="garanti">
+</div>
+</div>
+
+</div>
+ <script src="jscript.js"></script>
+</body>
+</html>
